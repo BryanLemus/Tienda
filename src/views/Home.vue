@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Navbar />
+    <Navbar placeholder="¿Qué puedo buscar para ti?" />
   </div>
 </template>
 

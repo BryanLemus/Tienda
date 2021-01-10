@@ -21,7 +21,7 @@ export default {
   props: {
     title: String,
     submitText: { type: String, default: "Send Request" },
-    cancelText: { type: String, default: "Reset" },
-  },
+    cancelText: { type: String, default: "Reset" }
+  }
 };
 </script>

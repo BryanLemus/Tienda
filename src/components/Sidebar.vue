@@ -22,7 +22,7 @@
 <script>
 export default {
   name: "sidebar",
-  data: function () {
+  data: function() {
     return {
       categories: [
         { id: 1, name: "Computers" },
@@ -38,13 +38,13 @@ export default {
         { id: 11, name: "Outdoors" },
         { id: 12, name: "Luggage" },
         { id: 13, name: "Arts & Craft" },
-        { id: 14, name: "Kids" },
+        { id: 14, name: "Kids" }
       ],
-      selected: undefined,
+      selected: undefined
     };
   },
   props: {
-    title: String,
-  },
+    title: String
+  }
 };
 </script>

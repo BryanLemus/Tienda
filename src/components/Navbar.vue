@@ -44,7 +44,7 @@ export default {
     };
   },
   props: {
-    username: { type: String, default: "Sing in" },
+    username: { type: String, default: "Sign in" },
     placeholder: String
   }
 };
